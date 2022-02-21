@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
                     scanf("%s",temp);
                     
                     // check answer and update score
-                    valid_answer(cat, points, temp);
-                    update_score(players, NUM_PLAYERS, players[playc].name, points);
+                    if (valid_answer(cat, points, temp))
+                        update_score(players, NUM_PLAYERS, players[playc].name, points);
                     
                     //increment counter
                     counter++;
