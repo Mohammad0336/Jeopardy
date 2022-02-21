@@ -1,5 +1,5 @@
 # Jeopardy
-Jeopardy made in C
+Jeopardy: a command line version of Jeopardy which can support up to four players created using C
 
 src contains the code without the colour customization.
 
