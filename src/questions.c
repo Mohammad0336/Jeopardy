@@ -171,10 +171,12 @@ bool valid_answer(char *category, int value, char *answer) {
     if(strcmp(answer,ans) == 0){
         printf("Correct");
         printf("\nThe answer was: %s", ans);
+	return true;
     }
     else{
         printf("incorrect");
         printf("\nThe answer was: %s", ans);
+	return false;
     }
     
     //tokenize answer and compare to expected output
